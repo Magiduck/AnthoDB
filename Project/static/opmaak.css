@@ -1,0 +1,336 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: 'Cuprum', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*text*/
+h1{
+	font-size:40px;
+	color:#A81D2E;
+}
+
+h2{
+	font-size:24px;
+	color:#A81D2E;
+}
+
+p{
+	font-size:18px;
+	color:#2C001E;
+	line-height:125%;
+}
+
+a{
+	text-decoration:none;
+	color:#2C001E;
+}
+
+body{
+	background-color:#6D7993;
+}
+
+#wrapper{
+	width:980px;
+	background-color:#D5D5D5;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+#wrapperDB{
+	width:980px;
+	height:5000px;
+	background-color:#D5D5D5;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+#topnav{
+	width:980px;
+	height:18px;
+	background-color:#A81D2E;
+}
+
+#topnavSunburst{
+	width:100%;
+	height:18px;
+	background-color:#A81D2E;
+}
+
+#menu{
+	text-align: center;
+	float:left;
+}
+#menu ul{
+	margin-top:20px;
+	margin-right:25px;
+	margin-bottom:15px;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	font-size:25px;
+	margin-right:20px;
+	font-weight:bold;
+}
+#menu a:hover{
+	color:#6D7993;
+}
+
+#menuSunburst{
+	text-align: center;
+	float:left;
+}
+#menuSunburst ul{
+	margin-top:20px;
+	margin-right:25px;
+	margin-bottom:15px;
+}
+#menuSunburst ul li{
+	display: inline;
+}
+#menuSunburst ul li a{
+	font-size:25px;
+	margin-right:20px;
+	font-weight:bold;
+}
+#menuSunburst a:hover{
+	color:#D5D5D5;
+}
+
+#titel h1{
+	margin-top:20px;
+}
+#titel h2{
+	margin-top:5px;
+	border-bottom:dotted 2px;
+	border-color:#6D7993;
+}
+
+#content{
+	width:70%; margin-top:10px;
+}
+
+#foto1{
+	float:right;
+	margin: 10px 0 10px 0;
+}
+
+#foto2{
+	float:left;
+	margin: 10px 0 10px 0;
+}
+
+#footer{
+	clear:both;
+	border-top:dotted 2px;
+	border-color:#6D7993;
+	padding:10px;
+	text-align:center;
+}
+
+form{
+	margin-top:50px;
+	margin-bottom:50px;
+	text-align:left;
+}
+
+form input[type=text]{
+	width:250px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+}
+
+input[type=submit]{
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+}
+
+input.inherit{font-family:inherit;}
+
+
+.kaart{
+	float:right;
+	margin: 10px 0 10px 0;
+}
+
+.contact{
+
+}
+table.tableSection {
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #aaa;
+	display: table;
+
+}
+table.tableSection thead, table.tableSection tbody {
+	float: left;
+	width: 100%;
+}
+table.tableSection tbody {
+	overflow: auto;
+	height: 500px;
+	background-color: #D5D5D5;
+}
+table.tableSection tr {
+	width: 99%;
+	display: table;
+	text-align: left;
+
+}
+table.tableSection th, table.tableSection td {
+	width: 16%;
+	border: 1px solid black;
+}
+
+
+.count{
+	font-size:24px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+#databasemenu{
+	text-align:center;
+	float:center;
+}
+#databasemenu ul{
+	margin-right:25px;
+	margin-bottom:80px;
+}
+#databasemenu ul li{
+	display: inline;
+}
+#databasemenu ul li a{
+	margin-right:30px;
+	margin-left:30px;
+	font-weight:bold;
+	font-size: 32px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#6D7993;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#databasemenu a:hover{
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+
+#databasemenu a:active{
+	position:relative;
+	top:1px;
+}
+
+#foto2{
+	border:2px solid #6D7993;
+}
+
+path {
+	stroke: #fff;
+}
+
+
+#artikelen{
+	text-align:right;
+}
+
+#figuur{
+	padding:1px;
+	border:1px solid #96858F;
+	background-color: #96858F;
+	margin-top:10px;
+	margin-bottom:0px;
+	height: 80%;
+	width: 80%;
+}
+
+#figuuronderschrift p{
+	font-size: 14px;
+	line-height:100%;
+}
+
+/*#sunburst{*/
+/*background-color: #6D7993;*/
+/*width:980px;*/
+/*height:400px;*/
+/*display: block;*/
+/*margin: right;*/
+/*}*/
+
+#mine{
+	text-align: center;
+	float: center;
+}

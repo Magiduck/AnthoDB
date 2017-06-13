@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ANTHOdb</title>
+    <link href="../static/opmaak.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+  	<link rel="icon" href="../static/IMG/favicon.gif" type="image/gif" sizes="16x16">
+  	<style type="text/css">
+  	body,td,th {
+	font-family: Cuprum, sans-serif;
+	font-size: large;
+}
+    </style>
+</head>
+
+<body>
+	<div id="wrapper">
+        <div id="topnav">
+            <div id="menu">
+            	<ul>
+                	<li><a href="/">Home</a></li>
+                    <li><a href="/textmine">Textmine</a></li>
+                    <li><a href="/help">Help</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div> 
+        </div>
+
+        <div id="banner">
+            <img src="../static/IMG/banner.jpg"/>
+        </div>
+            
+        <div id="titel">
+            <h1>ANTHOdb</h1>
+            <h2>Een live textmining webapplicatie voor Anthocyaninen in plantensoorten</h2>
+         </div>
+            
+         <div id="foto1">
+            <img src="../static/IMG/antoc.jpg"/>
+         </div>
+     
+        <div id="content">
+            <p>Anthocyanins zijn stoffen die kleur geven aan een plant. De kleur van antocyanins wordt beïnvloed door de PH, zuur heeft een oranje kleuren en een base heeft een paarse kleur. Antocyanins zorgen ook voor stress vermindering en de gevoeligheid voor foto-inhibitie via lichtdemping. Omdat antocyanins behoren tot flavonoiden en deze in elke organisme aanwezig zijn, wordt er gezocht naar elk gen dat te maken heeft met antocyanins. Zodat deze vergeleken en onderzocht kunnen worden. Er zijn 3 concrete vragen gesteld waarop een antwoord gevonden moet worden, deze vragen hebben allemaal te maken met de antocyanins. De vragen zijn welke gewassen antocyanins produceren onder stress en wat voor vorm van stress, welke genen zijn hierbij betrokken zijn en wat de beinvloed de productie van anthocyanins. Het doel is een tool ontwerpen en creeren die doormiddel van textmining antwoord kan geven op alle bovenstaande vragen.<br><br>
+
+De textmining logica wordt geschreven met Flask 1 , een micro web framework geschreven in Python.
+
+Flask is een alternatief voor mod_python 2 , dat gekozen is omdat Flask geen overbodige functies heeft.
+
+Flask is erg geschikt voor kleinere projecten en werkt buiten de basis functies met extensions die je
+
+alleen download als je ze nodig hebt. Het idee achter de textmining is het doorzoeken van artikelen met
+
+onderwerpen over anthocyanen en daarvan de benodigde informatie uit het artikel te halen en op te
+
+slaan. Een strategie kan zijn door te kijken naar de overlap tussen een database met plantennamen en
+
+opgeslagen artikelen die een vorm van het woord ‘Anthocyanin” bevatten.
+
+<br><br>
+
+Er is gekozen voor een web interface boven een downloadbaar programma om het feit dat een web
+
+interface toegankelijker en sneller te gebruiken is dan een gedownload programma. Deze web interface
+
+zal gebruik maken van HTML5, CSS3 en JavaScript. De webinterface zal gehost worden op
+
+www.cytosine.nl, de server die ons is geleverd door de Hogeschool van Arnhem en Nijmegen. Deze
+
+server gebruikt Apache 2.2.22 3 . De web interface zal een zoekfunctie hebben voor plantensoorten om
+
+op te zoeken of deze planten anthocyanen produceren en welke genen in die plantensoorten betrokken
+
+zijn bij anthocyanenproductie. Ook zal er een zoekfunctie zijn voor het opzoeken van genen en in welke
+
+plantensoorten deze genen zich bevinden. Verder zal er nog een homepagina, contactpagina en
+
+helppagina zijn.
+
+<br><br>
+
+Om de database op te zetten zal er eerst een ERD (Entity Relationship Diagram) ontworpen worden in
+
+MySQL Workbench 4 omdat dit programma kosteloos is en wij er al ervaring mee hebben. In dit ERD
+
+zullen de relaties tussen de tabellen en de benodigde data ontworpen worden. Dit ERD zal dan
+
+geëxporteerd worden als SQL CREATE SCRIPT om op deze manier de code voor de database te
+
+verkrijgen. <br><br>
+			
+			</p>
+        </div> 
+        <div id="footer">
+            <p>Website gemaakt door Tijs van Lieshout, Laatst bewerkt 12-5-2017</p>
+        </div>
+      
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ANTHOdb</title>
+    <link href="../static/opmaak.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href='http://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+  	<link rel="icon" href="../static/IMG/favicon.gif" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+	<div id="wrapper">
+        <div id="topnav">
+            <div id="menu">
+            	<ul>
+                	<li><a href="/">Home</a></li>
+                    <li><a href="/textmine">Textmine</a></li>
+                    <li><a href="/help">Help</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="banner">
+            <img src="../static/IMG/banner.jpg"/>
+        </div>
+
+        <div id="titel">
+            <h1>Textmine</h1>
+            <h2>Op deze pagina kunt u live textminen.</h2>
+         </div>
+
+        <div id="content">
+            <p>U kunt hier live textminen. Bij "Help" kunt u hiervoor instructies vinden.<br>
+                Zodra u een zoekopdracht heeft ingevuld zal de applicatie live textminen. <br>
+                Deze pagina zal aangeven wanneer het textminen klaar is en de data gevisualiseerd kan worden.
+            </p>
+
+        </div>
+
+        <br>
+        <br>
+        Uw zoekopdracht was: {{ query }}
+        <br>
+        Bekijk de resultaten door op de knop hieronder te drukken.
+
+
+        <div id="databasemenu">
+            <ul>
+                <li><a href="http://localhost:63342/ANTHOdb/templates/visualisatie.html">Visualisatie</a>
+
+            </ul>
+        </div>
+
+		<!--<div id="artikelen">-->
+		<!--<br>-->
+		    <!--<p>-->
+		        <!--Gevonden artikelen:-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0064297/<br>-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0325486/<br>-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0024356/<br>-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0095728/<br>-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0009238/<br>-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0062156/<br>-->
+		        <!--www.ncbi.nlm.nih.gov/pubmedhealth/PMH0041973/<br>-->
+
+		    <!--</p>-->
+		<!--</div>-->
+
+        <div id="footer">
+            <p>Website gemaakt door Tijs van Lieshout, Laatst bewerkt 12-6-2017</p>
+        </div>
+
+    </div>
+</body>
+</html>
